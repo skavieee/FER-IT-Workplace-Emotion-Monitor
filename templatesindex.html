@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>FER Dashboard</title>
+<style>
+body { font-family: Arial; text-align: center; background: #1a1a2e; color: white; }
+h1 { color: #00d4ff; }
+#video { width: 640px; height: 480px; border: 5px solid #16213e; border-radius: 10px; }
+.info { background: #16213e; padding: 20px; margin: 20px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<h1>🎓 IEEE FER-CLCM Demo</h1>
+<img id="video" src="/video_feed">
+<div class="info">
+<p><strong>Domain:</strong> Computer Vision + Machine Learning</p>
+<p><strong>Model:</strong> CLCM (2.3M params)</p>
+<p><strong>Base Paper:</strong> IEEE Access 2024</p>
+</div>
+<script>
+const video = document.getElementById("video");
+const evtSource = new EventSource("/video_feed"); 
+evtSource.onmessage = function(event) {
+    video.src = "data:image/jpeg;base64," + event.data;
+};
+</script>
+</body>
+</html>
