@@ -51,6 +51,3 @@ I developed this project from scratch, covering **data preparation, model traini
 Fork, star, and contribute! 🚀 Questions? Open an issue.
 
 **Keywords**: Facial Emotion Recognition, IEEE CLM, Computer Vision, Machine Learning, Webcam Demo, Flask App, OpenCV, Real-time FER
-
-
-Would you like me to make it shorter, add specific metrics from your training results, or tweak it for a more academic/IEEE conference focus?
