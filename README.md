@@ -1,7 +1,3 @@
-Here's a detailed GitHub repository description tailored to your FER-CLM webcam demo project. It highlights the key components from your repo structure, the IEEE CLM model integration, and the full workflow you implemented—from training to deployment—while emphasizing its focus on facial emotion recognition and ML productivity.
-
-***
-
 # FER-CLM Webcam Demo
 
 **Real-time Facial Emotion Recognition using IEEE CLM Model – A Complete Computer Vision & Machine Learning Project**
